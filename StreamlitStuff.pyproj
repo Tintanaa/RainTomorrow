@@ -67,6 +67,7 @@
     <Content Include="models\stacking.pkl" />
     <Content Include="models\SVMbalanced.pkl" />
     <Content Include="models\xgb.pkl" />
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
