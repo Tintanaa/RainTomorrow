@@ -42,6 +42,7 @@
     <Folder Include="assets\png\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\png\1703511503836.jpg" />
     <Content Include="assets\png\bagging.png" />
     <Content Include="assets\png\catboost.png" />
     <Content Include="assets\png\MLP.png" />
