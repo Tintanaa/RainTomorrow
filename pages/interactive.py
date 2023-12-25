@@ -81,11 +81,11 @@ df = pd.DataFrame(data)
 X = df.values.flatten()
 X = X.reshape(1, -1)
 
-button_clicked = st.button("Предсказать не хуже акинатора")
+button_clicked = st.button("Предсказать")
 
 if button_clicked:
-    st.header("1 - дождь будет (звуки шаманского бубна)")
-    st.header("0 - дождя не будет (звуки танца туземцев с бубном у костра)")        
+    st.header("1 - дождь будет")
+    st.header("0 - дождя не будет")        
     with open('models/bagging.pkl', 'rb') as file:
             bagging = pickle.load(file)
     import catboost
