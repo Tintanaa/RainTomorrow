@@ -9,7 +9,15 @@ st.write("<h1 style='text-align: center; color: white;'>Главная</h1>", un
 st.markdown(
     """
     <p style="text-align: center;"> Привет! Меня зовут Мягков Егор, я из группы ФИТ-222 </p>
-    <p style="text-align: center;"> (Это вместо моей фотографии). </p>
+    <p style="text-align: center;"> (Just another one photo). </p>
+    """, unsafe_allow_html=True
+)
+
+st.image('assets/png/1703511503836.jpg')
+
+st.markdown(
+    """
+    <p style="text-align: center;"> (LOGO). </p>
     """, unsafe_allow_html=True
 )
 
@@ -29,12 +37,12 @@ st.markdown(
     
     Но это не значит, что он не будет обновляться...
     
-    Использованные технологии (список будет пополняться, все они в requirements.txt): 
+    Основные использованные технологии: 
     - sklearn, 
     - tensorflow, 
     - streamlit
     
-    <p style="text-align: center;"> Данный проект содержит в себе 5 моделей машинного обучения для предсказания дождя в Австралии на завтрашний день</p>
+    <p style="text-align: center;"> Данный проект содержит в себе 6 моделей машинного обучения для предсказания дождя в Австралии на завтрашний день</p>
     
     <p style="text-align: center;"> За дальнейшими подробностями смотреть в description </p>
     """, unsafe_allow_html=True
