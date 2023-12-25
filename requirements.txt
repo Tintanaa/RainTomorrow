@@ -6,5 +6,4 @@ ydata_profiling
 streamlit_pandas_profiling
 matplotlib
 seaborn
-os
 catboost
