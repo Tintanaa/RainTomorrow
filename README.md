@@ -10,6 +10,6 @@ Streamlit project with usage of ML algorithms
     
 - bagging (ансамблевая модель (бэггинг)) 
     
-- stacking (ансамблевая модель (стэкинг)) (svm + bagging + xgboost)
+- stacking (ансамблевая модель (стэкинг)) (logistic regression + xgboost)
     
 - Глубокая полносвязная нейронная сеть (на Keras)
