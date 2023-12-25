@@ -13,3 +13,5 @@ Streamlit project with usage of ML algorithms
 - stacking (ансамблевая модель (стэкинг)) (logistic regression + xgboost)
     
 - Глубокая полносвязная нейронная сеть (на Keras)
+
+https://raintomorrowtintana.streamlit.app
