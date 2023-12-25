@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-uploaded_file = st.file_uploader("Выберите файл датасета", type=["csv", "xlsx", "txt"])
+uploaded_file = st.file_uploader("Выберите файл датафрейма", type=["csv", "xlsx", "txt"])
 
 if uploaded_file is not None:
     if uploaded_file.name.endswith('.csv'):
@@ -16,7 +16,7 @@ if uploaded_file is not None:
     else:
         df = pd.read_csv(uploaded_file, sep='\t') 
 
-    st.write("Загруженный датасет:", df)
+    st.write("Загруженный датафрейм:", df)
 
     st.title("Датасет Rain in Australia")
 
